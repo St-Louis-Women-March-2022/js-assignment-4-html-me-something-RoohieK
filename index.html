@@ -2,15 +2,16 @@
 <html>
    <head>
       <title> My Favorite Food and their Receipes</title>
+      <link rel="stylesheet" type="text/css" href="styles.css">
    </head>
    <body>
       <header>  
-         <h1> My Favorite Indian food and their Receipes  </h1>
+         <h1 id="mainHeading"> My Favorite Indian food and their Receipes  </h1>
          <div style="position:relative;left:1100px;">
-            <script> 
+            <script>
             date = new Date().toLocaleDateString();
             document.write(date);
-            </script>
+           </script>
          </div>
          <ol>
             <em><li><a href="#Chole Bhature">  Chole Bhature</a></li></em>
@@ -24,18 +25,18 @@
             <section>
                <em><h2><li><a name = "Chole Bhature"> Chole Bhature  </a> &#128523;</li> </h2></em>
                   <figure>
-                    <center> <img src = "images/Chole Bhature.jpg"> </center>
-                     <figcaption style ="text-align : center"> Delicious Chole Bhature served with onions. Courtersy of <a href = "https://www.cookforindia.com/recipe/chole-bhature-recipe/" > CookforIndia </a></figcaption>
+                    <center> <img class="fig" src = "images/Chole Bhature.jpg"> </center>
+                     <figcaption > Delicious Chole Bhature served with onions. Courtersy of <a href = "https://www.cookforindia.com/recipe/chole-bhature-recipe/" > CookforIndia </a></figcaption>
                   </figure>
                
-                  <p>
+                  <p id="testP" class="funParagraph">
                   Chole bhature, also known as ‘channa bhatura’ is a North-Indian must-have. A combination of two dishes—chole, which is a spicy chickpea curry, and bhature, a type of fried bread made with maida—it makes for a meal that’s just right for Sunday afternoons, and should ideally be followed by a post-lunch snooze. Courtersy for recipe <a href = "https://www.vogue.in/vogue-cookbook/collection/punjabi-style-chole-bhature-recipe-to-make-at-home/"> Sanjeev Kapoor</a>
                   </p>
             </section>
             <section>
-                  <em><h4> Serving  for 4 </h4></em>
-                  <h3 ><u> Ingredients </u> </h3>
-                  <h4 > Chole Ingredients </h4>
+                  <h4 class="Serving"> Serving  for 4 </h4>
+                  <h3 id="ingredients-top"> Ingredients </h3>
+                  <h4  class="inner-ingredients"> Chole Ingredients </h4>
                   <ul>
                      <li>1 cup soaked chickpeas </li>
                      <li>2 tea bags</li>
@@ -61,7 +62,7 @@
                      <li>1 tsp garam masala
                      </li>
                      </ul>
-                     <h4 >  Bhature Ingredients</h4>
+                     <h4 class="inner-ingredients" >  Bhature Ingredients</h4>
                      <ul>
                      <li>2 1/2 cup refined flour (maida)
                      </li>
@@ -80,8 +81,8 @@
                      </ul>
             </section>
             <section>
-               <h3><u> Recipe </u> &#128071;</h3>
-               <ol>
+               <h3 id="recipe-top"> Recipe &#128071;</h3>
+               <ol id="recipe-listing">
                   <li> Take chickpeas in a pressure cooker. Add tea bags, 6-8 cups water and salt, cover and cook for 15-20 minutes or till fully done and soft. Drain the chickpeas, discard the tea bags and reserve the stock.</li>
                   <li> Sieve together flour, baking powder, baking soda, salt and powdered sugar. Add yoghurt and mix well.</li>
                   <li> Add some water and knead into a soft dough. Add one tablespoon oil and knead well. Set aside for 15-20 minutes.</li>
@@ -98,16 +99,16 @@
             <section>
                <em><h2><li><a name = "Pani Puri"> Pani Puri </a> &#128523; </li> </h2></em>
                <figure>
-                 <center> <img src="images/pani-puri-recipe-golgappa.jpeg" ><figcaption style="text-align : center"> Mouth watering Pani Puri (or Golgappa). Courtesy of <a href="https://hebbarskitchen.com/pani-puri-recipe-golgappa-recipe-puchka/"> hebbarskitchen</a></figcaption></center>
+                 <center> <img class="fig" src="images/pani-puri-recipe-golgappa.jpeg" ><figcaption> Mouth watering Pani Puri (or Golgappa). Courtesy of <a href="https://hebbarskitchen.com/pani-puri-recipe-golgappa-recipe-puchka/"> hebbarskitchen</a></figcaption></center>
                </figure>
-               <p>
+               <p id="testP" class="funParagraph">
                   Pani puri | golgappa | puchka | pani poori -  indian street food recipes are world famous because of the taste, flavour and combination of spices. Most of them are either made with ragda curry or with the combination of deep-fried snacks in a chaat chutney. But there are some other unique water-based street food recipes and pani puri recipe or golgappa is one such popular street food snack.
                </p>
             </section>
             <section>
-               <em><h4> Serving  for 5 </h4></em>
-               <h3 ><u> Ingredients </u> </h3>
-               <h4> Puri Ingredients</h4>
+               <h4 class="Serving"> Serving  for 5 </h4>
+               <h3 id="ingredients-top" > Ingredients  </h3>
+               <h4 class="inner-ingredients"> Puri Ingredients</h4>
                <ul>
                   <li>1 cup rava / semolina / suji (coarse)
                   </li>
@@ -120,7 +121,7 @@
                   <li>oil (for frying)
                   </li>
                </ul>
-               <h4> Theeka Pani Ingredients</h4>
+               <h4 class="inner-ingredients" > Theeka Pani Ingredients</h4>
                <ul>  
                   <li>¼ cup mint / pudina
                   </li>
@@ -143,7 +144,7 @@
                   <li>4 cup cold water
                   </li>
                </ul>
-               <h4> Khatta Meetha Pani Ingredients</h4>
+               <h4 class="inner-ingredients" > Khatta Meetha Pani Ingredients</h4>
                <ul>
                   <li>1 cup tamarind extract
                   </li>
@@ -164,7 +165,7 @@
                   <li>3 cup cold water
                   </li>
                </ul>
-               <h4> Aloo Stuffing Ingredients</h4>
+               <h4 class="inner-ingredients"> Aloo Stuffing Ingredients</h4>
                <ul>
                   <li>3 potato / aloo (boiled & mashed)
                   </li>
@@ -183,17 +184,17 @@
                   <li>½ tsp salt
                   </li>
                </ul>
-               <h4> Serving Ingredients</h4>
+               <h4 class="inner-ingredients" > Serving Ingredients</h4>
                <ul>
                   <li>2 tbsp boondi
                   </li>
                </ul>
             </section>
             <section>
-               <h3><u> Recipe  </u> &#128071;</h3>
-               <h4> Puri Recipe</h4>
+               <h3 id="recipe-top"> Recipe  &#128071;</h3>
+               <h4 class="inner-recipe"> Puri Recipe</h4>
 
-               <ol>
+               <ol id="recipe-listing">
                   <li>Firstly, in a large bowl take 1 cup rava and 2 tbsp maida.
                   </li>
                   <li>Add 3 tbsp oil, crumble and mix well making sure the rava turns moist.
@@ -223,11 +224,11 @@
                   <li>Puri is ready for pani puri. once cooled completely, you can store in an airtight container and use it for a week.
                   </li>
                   
-               </ol>
+               </ol >
              
-               <h4> Theeka Pani Recipe</h4>
+               <h4 class="inner-recipe"> Theeka Pani Recipe</h4>
 
-               <ol>
+               <ol id="recipe-listing">
                   <li>Firstly, in a small blender take ¼ cup mint, ½ cup coriander, 1 inch ginger, 2 chilli and small ball sized tamarind.
                   </li>
                   <li>Blend to smooth paste adding water as required.
@@ -241,9 +242,9 @@
                  
                </ol>
 
-               <h4> Khatta Meetha Pani Recipe</h4>
+               <h4 class="inner-recipe"> Khatta Meetha Pani Recipe</h4>
 
-              <ol>
+              <ol id="recipe-listing">
                   <li>Firstly, in a large bowl take 1 cup tamarind extract and 3 tbsp jaggery.
                   </li>
                   <li>Also add 1 tsp chaat masala, 1 tsp cumin powder, ¼ tsp pepper powder, ¼ tsp chilli powder, pinch hing, ¾ tsp salt and 3 cup cold water.
@@ -252,9 +253,9 @@
                   </li>
                </ol>
              
-               <h4> Aloo Stuffing Recipe</h4>
+               <h4 class="inner-recipe"> Aloo Stuffing Recipe</h4>
 
-               <ol>
+               <ol id="recipe-listing">
                   <li>Firstly, in a small bowl take 3 potato, ½ onion and 2 tbsp coriander.
                   </li>
                   <li>Also add ½ tsp cumin powder, ½ tsp chaat masala, ¼ tsp pepper powder, ½ tsp chilli powder and ½ tsp salt.
@@ -266,9 +267,9 @@
                
                </ol>
              
-               <h4> Serving</h4>
+               <h4 class="inner-recipe"> Serving</h4>
 
-               <ol>
+               <ol id="recipe-listing">
                   <li>Firstly, just before serving add handful of boondi to theeka pani and khatta meetha pani.
                   </li>
                   <li>Make a small hole in centre of puri.
